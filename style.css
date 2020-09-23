@@ -4,7 +4,7 @@
     text-decoration: none;
     list-style: none;
     color: black;
-    font-size: 16px;
+    font-size: 14px;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -79,7 +79,7 @@ button {
 /* FOOTER */
 
 footer {
-    background-color: lightgray;
+    background-color: rgb(241, 234, 234);
     position: absolute;
     bottom: 0;
     width: 100%;
