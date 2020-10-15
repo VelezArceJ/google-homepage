@@ -19,26 +19,25 @@ nav {
     height: 50px; 
 }
 
-nav ul li {
-}
-
 nav a:hover {
     text-decoration: underline;
 }
 
 nav a {
-    margin-top: 10px;
     padding: 0 10px;
-    display: flex;
-    flex-flow: row wrap;
 }
 
-#left-nav {
-    float: left;
+nav ul {
+    padding-top: 15px;
+    padding-left: 10px;
+}
+
+nav ul li {
+    display: inline;
 }
 
 #right-nav {
-    float: right;
+    margin-left: 800px;
 }
 
 /* MAIN */
