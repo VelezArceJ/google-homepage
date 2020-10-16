@@ -4,7 +4,7 @@
     text-decoration: none;
     list-style: none;
     color: black;
-    font-size: 14px;
+    font-size: 13px;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -17,6 +17,7 @@ nav {
     left: 0;
     right: 0;
     height: 50px; 
+    padding-left: 15px;
 }
 
 nav a:hover {
@@ -24,11 +25,11 @@ nav a:hover {
 }
 
 nav a {
-    padding: 0 10px;
+    padding: 0 5px;
 }
 
 nav ul {
-    padding-top: 15px;
+    padding-top: 20px;
     padding-left: 10px;
 }
 
@@ -37,13 +38,13 @@ nav ul li {
 }
 
 #right-nav {
-    margin-left: 800px;
+    margin-left: 870px;
 }
 
 /* MAIN */
 
 main {
-    margin: 200px auto 0;
+    margin: 150px auto 0;
     width: 600px;
 }
 
@@ -53,20 +54,20 @@ main img {
 }
 
 input {
-    width: 400px;
-    height: 30px;
-    border-radius: 15px;
+    width: 600px;
+    height: 40px;
+    border-radius: 30px;
     border-width: 1px;
     border-color: lightgray;
-    margin: 0 auto;
+    margin: 20px auto 0;
     display: block;
 }
 
 button {
     display: inline;
     font-weight: 100;
-    padding: 5px;
-    border-radius: 2px;
+    padding: 10px;
+    border-radius: 5px;
     border: transparent;
     margin: 5px 5px 0;
 }
@@ -78,17 +79,17 @@ button {
 /* FOOTER */
 
 footer {
-    background-color: rgb(241, 234, 234);
+    background-color: rgb(241, 241, 241);
     position: absolute;
     bottom: 0;
     width: 100%;
-    height: 50px;
+    height: 40px;
 }
 
 footer a {
     padding: 0 5px;
     font-weight: lighter;
-    line-height: 50px;
+    line-height: 40px;
     font-size: 14px;
 }
 
